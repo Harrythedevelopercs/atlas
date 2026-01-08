@@ -37,7 +37,7 @@
                                     <li><a href="about.php">About</a></li>
                                     <li><a href="portfolio.php">Portfolio</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                    <li><a href="privacy-policy.php">Privacy Policy</a></li><li><a href="https://www.atlaspublishinggroup.com/Terms-and-conditions">Terms & Conditions</a></li>
                                 </ul>
                             </div>
                         </div>

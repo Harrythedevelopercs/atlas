@@ -44,6 +44,7 @@
                             document.write(new Date().getFullYear());
                         </script> Atlas Publishing Group. All Rights Reserved.
                         <a href="https://www.atlaspublishinggroup.com/privacy-policy">Privacy Policy</a>
+                        | <a href="https://www.atlaspublishinggroup.com/Terms-and-conditions">Terms & Conditions</a>
                     </p>
                 </div>
                 <!-- <div class="copyright_nav">
