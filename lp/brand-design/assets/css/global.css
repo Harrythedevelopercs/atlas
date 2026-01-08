@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    /* Colors */
+    --primary-color: rgba(78, 62, 141, 1);
+    --secondary-color: rgba(36, 65, 99, 1);
+    --accent-color: rgba(9, 203, 202, 1);
+    --success-color: #000C69;
+    --danger-color: #dc3545;
+    --warning-color: #FFC902;
+    --light-color: #fff;
+    --dark-color: #000;
+    --gray-color: #ffffff87;
+    --light-gray-color: #F0F0F0;
+    --bg-color: #E9E9E9;
+
+    /* Greys */
+    --gray-100: #f1f3f5;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+
+    /* Typography */
+    --font-base: "Poppins", sans-serif;
+    --font-base-2: "Roboto Slab", serif;
+    --font-size-base: 16px;
+    --font-size-lg: 75px;
+    --font-size-sm: 14px;
+
+    /* Font Weight */
+    --font-100: 100;
+    --font-200: 200;
+    --font-300: 300;
+    --font-400: 400;
+    --font-500: 500;
+    --font-600: 600;
+    --font-700: 700;
+    --font-800: 800;
+    --font-900: 900;
+
+    /* Transition */
+    --cubic: all 0.6s cubic-bezier(0.615, 0, 0.07, 1);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-base);
+    font-size: var(--font-size-base);
+    color: var(--dark-color);
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+}
+
+.combo_btn {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    display: block;
+    background: linear-gradient(55deg, rgb(83, 60, 145) 0%, rgb(180, 163, 223) 100%);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 20px;
+    border: unset;
+    border-radius: 8px;
+    padding: 10px 35px;
+    box-shadow: inset 5px -5px 5px rgba(0, 0, 0, 0.5);
+    transition: var(--cubic);
+}
+
+.btn:hover {
+    background: var(--accent-color);
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.btn,
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.6s cubic-bezier(0.615, 0, 0.07, 1);
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-base-2);
+}
+
+h1 {
+    font-size: var(--font-size-lg);
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: var(--font-800);
+    color: var(--light-color);
+}
+
+h2 {
+    font-size: var(--font-size-lg);
+    line-height: 80px;
+    font-weight: var(--font-800);
+}
+
+h3 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: var(--font-600);
+}
+
+h4 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: var(--font-600);
+}
+
+h5 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: var(--font-600);
+}
+
+h6 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: var(--font-500);
+}
+
+p {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+    font-weight: var(--font-600);
+}
+
+.scroll_block {
+    overflow: auto;
+    padding-right: 10px
+}
+
+.scroll_block::-webkit-scrollbar {
+    width: 1px
+}
+
+.scroll_block::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scroll_block::-webkit-scrollbar-thumb {
+    background: transparent
+}
+
+.sec_padding {
+    padding: 80px 0;
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.line_break {
+    display: block;
+}
+
+.my-tabs {
+    display: none;
+}
+
+.my-tabs.current {
+    display: block;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    font-weight: var(--font-800);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.sub_heading {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: var(--font-600);
+    letter-spacing: -1px;
+    font-family: var(--font-base);
+}
+
+.para {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
