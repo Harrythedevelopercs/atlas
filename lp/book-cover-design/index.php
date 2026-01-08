@@ -1080,7 +1080,8 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12 p0">
-                  <p>© 2025 Atlas Publishing Group. All Rights Reserved</p>
+                  <p>© 2025 Atlas Publishing Group. All Rights Reserved |  <a href="https://www.atlaspublishinggroup.com/privacy-policy">Privacy Policy</a> | 
+                        | <a href="https://www.atlaspublishinggroup.com/Terms-and-conditions">Terms & Conditions</a> </p> 
                </div>
             </div>
          </div>

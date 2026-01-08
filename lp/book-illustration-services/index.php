@@ -1607,6 +1607,12 @@
                               Experts US.
                            </li>
                         </ul>
+                        <ul>
+                           <li class="pwrd" style="font-size: 14px; font-weight: 700;">
+                              <a href="privacy-policy" style="text-transform: none;">Privacy Policy</a> | <a
+                                 href="terms-and-conditions" style="text-transform: none;">Terms & Conditions</a>
+                           </li>
+                        </ul>
                      </div>
                   </div>
                   <div class="col-sm-4">
